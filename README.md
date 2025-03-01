@@ -180,7 +180,7 @@ export default RestaurantsContainer;
 
 5. Access props in the container component.
 
-- In the Restaurant compoent create a paramater called props.
+
 - Inside the div returned by the component, create elements to display the data. Access the data using props.restaurant.<dataKey>.
 
 <details>

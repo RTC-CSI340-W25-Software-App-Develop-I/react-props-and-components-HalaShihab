@@ -1,15 +1,17 @@
-import { restaurants } from "./data/data.js";
-import {Restaurant} from"./Restaurant";
-import data from data/data.js;
+import { restaurants } from "../data/data.js";
 
+import Restaurant from "./Restaurant";
 
-function RestaurantsContainer() {
+function RestaurantsContainer(props) {
   return (
     <div className="restaurantContainer">
-      {restaurants.map(restaurant => <Restaurant restaurant={restaurant} />)}
+      {restaurants.map(restaurant => <Restaurant />)}
+  
+      
     </div>
   );
 }
+
 export default RestaurantsContainer;
 
 

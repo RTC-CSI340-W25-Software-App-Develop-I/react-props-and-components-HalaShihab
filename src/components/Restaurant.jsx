@@ -10,7 +10,9 @@ function Restaurant(props) {
         <li>{props.restaurant.phone}</li>
         <li>{props.restaurant.cuisine}</li>
         <li>{props.restaurant.rating}</li>
+        
       </ul>
+     
     </div>
   );
 }

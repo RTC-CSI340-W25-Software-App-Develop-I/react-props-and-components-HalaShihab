@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/T6YH-qgN)
 # React Props and Components
 
 ## Learning Goals
@@ -179,7 +180,7 @@ export default RestaurantsContainer;
 
 5. Access props in the container component.
 
-- In the Restaurant compoent create a paramater called props.
+
 - Inside the div returned by the component, create elements to display the data. Access the data using props.restaurant.<dataKey>.
 
 <details>
